@@ -1,13 +1,13 @@
 EF Core Teacher and Student Console Application
 
 Prerequisites
-.NET 7.0 SDK or later
-Visual Studio or any C# IDE
-SQL Server or PostgreSQL
+1. .NET 7.0 SDK or later
+2. Visual Studio or any C# IDE
+3. SQL Server or PostgreSQL
 
 Setup
-Create a Console Application project in your IDE.
-Configure the appsettings.json file like this:
+1. Create a Console Application project in your IDE.
+2. Configure the appsettings.json file like this:
 
 ```
 {
@@ -16,7 +16,7 @@ Configure the appsettings.json file like this:
   }
 }
 ```
-Run the following commands to add migrations and update the database:
+3. Run the following commands to add migrations and update the database:
 ```
 dotnet ef migrations add InitialCreate
 dotnet ef database update
